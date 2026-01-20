@@ -1,7 +1,13 @@
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Footer from '../components/Footer';
+
 export default function Landing() {
     return (
-      <div>
-        <h1>Job Board Landing Page</h1>
+      <div className="landing-page">
+        <Navbar />
+        <Hero />
+        <Footer />
       </div>
     );
   }
