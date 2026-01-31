@@ -1,21 +1,114 @@
-<<<<<<< HEAD
-# React + Vite
+# 💼 Job Board Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Job Board web application** built with React that allows users to browse job listings, view role details, and navigate through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://niwani.github.io/Job_Board/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Job Board app is a frontend React application designed to simulate a job marketplace where users can:
 
-## Expanding the ESLint configuration
+- Browse available job listings
+- View detailed descriptions for roles
+- Navigate across different pages and categories
+- Explore a clean and responsive user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Job_Board
-A responsive job board web application built with React and JavaScript. It allows users to browse job listings, view role details, and navigate seamlessly through a clean, mobile-friendly interface. The project demonstrates reusable components, React hooks, routing, and modern frontend best practices.
->>>>>>> 10e92e8c0b91c91a9d274073c8095698d1a22c61
+This project highlights practical React skills including component composition, state management, routing, and UI structure.
+
+---
+
+##  Screenshot
+
+![Job Board Screenshot](./screenshots/job-board.png)
+
+
+## 🛠 Key Features
+
+✔ Browse a list of jobs
+✔ View detailed job information
+✔ Clean and responsive layout
+✔ Navigation between pages
+✔ Component-based design for scalability
+
+## 🧰 Technologies Used
+This project is built with:
+
+React — for interactive UI components
+
+JavaScript (ES6+) — application logic
+
+CSS / Tailwind CSS — styling and layout
+
+React Router — client-side navigation
+
+GitHub Pages — deployment of the live demo
+
+
+## 🚀 Getting Started (Local Setup)
+To run this project locally:
+
+1. Clone the repository
+
+- git clone https://github.com/Niwani/Job_Board.git
+Navigate to the project directory
+
+- cd Job_Board
+
+2. Install dependencies
+
+- npm install
+or
+
+- yarn
+
+3. Start the development server
+
+- npm start
+
+or
+
+- yarn start
+
+4. Open your browser and go to http://localhost:3000 to view the app.
+
+
+## 📌 How It Works
+
+This app uses a data file (or API) to display job listings. Each job card shows a summary, and clicking on a job brings up more details on a separate screen. State and routing enable smooth navigation without full page refreshes.
+
+## 💡 Possible Enhancements
+
+Here are a few improvements you could add to make this project even stronger:
+
+✔ Add a real backend API for jobs
+✔ Implement search and filter by keywords
+✔ Add user authentication (login/registration)
+✔ Save favorite listings to local storage
+✔ Add pagination or infinite scroll
+
+These enhancements demonstrate full-stack thinking and real-world application design.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 🤝 Contributing
+Contributions are welcome!
+
+- Fork the repository
+
+- Create a feature branch
+
+- Make your changes
+
+- Commit and push
+
+- Open a pull request
+
+## 📬 Contact
+
+For feedback or questions, reach out at:
+📧 eniolaadio60@gmail.com
+
+Thank you for checking out this project! ⭐
